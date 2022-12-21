@@ -6,7 +6,7 @@
 ![image](https://user-images.githubusercontent.com/100039777/208156883-07ec4303-fb1e-4fe7-b38f-b666426534b6.png)
 
 
-La figura muestra una problema de abastecimiento ´optimo de la demanda, donde el producto
+La figura muestra una problema de abastecimiento óptimo de la demanda, donde el producto
 viaja sobre una red de transporte, bosquejada arriba.
 - Las demandas di ⩾ 0, están asociadas a ubicaciones geográficas, indicadas por nodos. Son parámetros del problema.
 - La producción pi también se asocia a nodos, y es una variable a optimizar, dentro de límites pi ∈ [0, pi]. Cada productor i tiene un costo ci por unidad de producto.
