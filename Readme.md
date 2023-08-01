@@ -1,6 +1,5 @@
 [Ir al proyecto Colab](https://colab.research.google.com/drive/1Uqv9q-7wN0nB9nXq21e5SQRkpdaG0-wC?usp=sharing)
 
-# Obligatorio de Optimización con álgebra Lineal
 ## Abastecimiento de demanda sobre red de transporte
 
 ![image](https://user-images.githubusercontent.com/100039777/208156883-07ec4303-fb1e-4fe7-b38f-b666426534b6.png)
@@ -14,7 +13,7 @@ viaja sobre una red de transporte, bosquejada arriba.
 - En cada nodo hay balance de flujo: la cantidad que entra debe ser igual a la que sale.
 - Para cada grupo se especificará un conjunto diferente de parámetros.
 
-## Se pide:
+## Planteo del problema:
 - (a) Expresar como programación lineal el problema de abastecer la demanda con costo mínimo y en forma consistente con las restricciones. Identificar el vector de variables, y expresar las restricciones de igualdad y desigualdad.
 - (b) Hacer un script de python en el cual se ingresan los vectores de parámetros c, d, ¯p, ¯y, y devuelve el costo óptimo y los valores de las variables de decisión.
 - (c) Suponiendo inicialmente que no hay límites de producción p1, y con los valores dados de yij , encontrar el máximo valor de d0 (hasta un dígito decimal de precisión) para el cual el problema es factible. Para una serie representativa de valores de d0 entre 0 y el máximo hallado, resolver la optimización. Graficar la evolución del costo al crecer d0. Comentar los resultados.
